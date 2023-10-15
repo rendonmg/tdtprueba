@@ -1,0 +1,571 @@
+{
+    "license": {
+        "source": "https://github.com/LaQuay/TDTChannels",
+        "url": "https://www.tdtchannels.com/avisolegal"
+    },
+    "epg": {
+        "xml": "https://www.tdtchannels.com/epg/TV.xml",
+        "xml.gz": "https://www.tdtchannels.com/epg/TV.xml.gz",
+        "json": "https://www.tdtchannels.com/epg/TV.json"
+    },
+    "countries": [
+        {
+            "name": "International",
+            "ambits": [
+                {
+                    "name": "Colombia y otros",
+                    "channels": [
+                        {
+                            "name": "Telemed",
+                            "web": "https://telemedellin.tv/senal-en-vivo/",
+                            "logo": "https://graph.facebook.com/telemedellin.tv/picture?width=200&height=200",
+                            "epg_id": null,
+                            "options": [
+                                {
+                                    "format": "m3u8",
+                                    "url": "https://telemedellin.tv/senal-en-vivo/",
+                                    "geo2": null,
+                                    "res": null,
+                                    "lang": null
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Noticias Caracol Colombia",
+                            "web": "https://noticias.caracoltv.com/ahora",
+                            "logo": "https://graph.facebook.com/NoticiasCaracol/picture?width=200&height=200",
+                            "epg_id": null,
+                            "options": [
+                                {
+                                    "format": "m3u8",
+                                    "url": "https://mdstrm.com/live-stream-playlist/632391734be92a791e2750e6.m3u8",
+                                    "geo2": null,
+                                    "res": null,
+                                    "lang": null
+                                },
+                                {
+                                    "format": "youtube",
+                                    "url": "https://www.youtube.com/channel/UC2Xq2PK-got3Rtz9ZJ32hLQ/live",
+                                    "geo2": null,
+                                    "res": null,
+                                    "lang": null
+                                }
+                            ],
+                            "extra_info": [
+                                "NONAV"
+                            ]
+                        },
+                        {
+                            "name": "Canal Capital Colombia",
+                            "web": "https://www.canalcapital.gov.co/content/canal-capital-vivo",
+                            "logo": "https://graph.facebook.com/CanalCapitalOficial/picture?width=200&height=200",
+                            "epg_id": null,
+                            "options": [
+                                {
+                                    "format": "m3u8",
+                                    "url": "https://play.cdn.enetres.net/C99D9A0676F3401589C768D47D31605C021/021/playlist.m3u8",
+                                    "geo2": null,
+                                    "res": null,
+                                    "lang": null
+                                }
+                            ],
+                            "extra_info": []
+                        },
+                        {
+                            "name": "Teleantioquia Colombia",
+                            "web": "https://www.teleantioquia.co/al-aire/",
+                            "logo": "https://graph.facebook.com/CanalTeleantioquia/picture?width=200&height=200",
+                            "epg_id": null,
+                            "options": [
+                                {
+                                    "format": "m3u8",
+                                    "url": "https://liveingesta118.cdnmedia.tv/teleantioquialive/smil:dvrlive.smil/playlist_DVR.m3u8",
+                                    "geo2": null,
+                                    "res": null,
+                                    "lang": null
+                                }
+                            ],
+                            "extra_info": [
+                                "UAGLI"
+                            ]
+                        },
+                        {
+                            "name": "Se\u00f1al Colombia",
+                            "web": "https://www.senalcolombia.tv/senal-en-vivo/",
+                            "logo": "https://graph.facebook.com/senalcolombiapaginaoficial/picture?width=200&height=200",
+                            "epg_id": null,
+                            "options": [
+                                {
+                                    "format": "m3u8",
+                                    "url": "https://streaming.rtvc.gov.co/TV_Senal_Colombia_live/smil:live.smil/playlist.m3u8",
+                                    "geo2": null,
+                                    "res": null,
+                                    "lang": null
+                                }
+                            ],
+                            "extra_info": []
+                        },
+                        {
+                            "name": "Telepacifico Colombia",
+                            "web": "https://telepacifico.com/envivo/",
+                            "logo": "https://graph.facebook.com/TelepacificoTV/picture?width=200&height=200",
+                            "epg_id": null,
+                            "options": [
+                                {
+                                    "format": "m3u8",
+                                    "url": "https://stream.logicideas.media/telepacifico-live/smil:live.smil/playlist.m3u8",
+                                    "geo2": null,
+                                    "res": null,
+                                    "lang": null
+                                }
+                            ],
+                            "extra_info": []
+                        },
+                        {
+                            "name": "Canal Telecaribe Colombia",
+                            "web": "https://www.play.telecaribe.co/live",
+                            "logo": "https://pbs.twimg.com/profile_images/1653856228198567949/Kg6qiIEv_200x200.jpg",
+                            "epg_id": null,
+                            "options": [],
+                            "extra_info": [
+                                "W3U",
+                                "EXTA"
+                            ]
+                        },
+                        {
+                            "name": "Canal TRO Colombia",
+                            "web": "https://www.canaltro.com/senal-en-vivo-2/",
+                            "logo": "https://graph.facebook.com/canaltro/picture?width=200&height=200",
+                            "epg_id": null,
+                            "options": [
+                                {
+                                    "format": "m3u8",
+                                    "url": "https://liveingesta118.cdnmedia.tv/canaltro2live/smil:live.smil/playlist.m3u8",
+                                    "geo2": null,
+                                    "res": null,
+                                    "lang": null
+                                }
+                            ],
+                            "extra_info": [
+                                "UAGLI"
+                            ]
+                        },
+                        {
+                            "name": "FOX Live Now USA",
+                            "web": "https://www.foxnews.com",
+                            "logo": "https://graph.facebook.com/livenowfox/picture?width=200&height=200",
+                            "epg_id": null,
+                            "options": [
+                                {
+                                    "format": "m3u8",
+                                    "url": "https://fox-foxnewsnow-samsungus.amagi.tv/playlist.m3u8",
+                                    "geo2": null,
+                                    "res": null,
+                                    "lang": "EN"
+                                }
+                            ],
+                            "extra_info": []
+                        },
+                        {
+                            "name": "ABC News USA",
+                            "web": "https://abcnews.go.com/Live",
+                            "logo": "https://graph.facebook.com/ABCNews/picture?width=200&height=200",
+                            "epg_id": null,
+                            "options": [
+                                {
+                                    "format": "m3u8",
+                                    "url": "https://content.uplynk.com/channel/3324f2467c414329b3b0cc5cd987b6be.m3u8",
+                                    "geo2": null,
+                                    "res": null,
+                                    "lang": "EN"
+                                }
+                            ],
+                            "extra_info": []
+                        },
+                        {
+                            "name": "NBC News USA",
+                            "web": "https://www.nbcnews.com/now",
+                            "logo": "https://graph.facebook.com/NBCNews/picture?width=200&height=200",
+                            "epg_id": null,
+                            "options": [
+                                {
+                                    "format": "youtube",
+                                    "url": "https://www.youtube.com/channel/UCeY0bbntWzzVIaj2z3QigXg/live",
+                                    "geo2": null,
+                                    "res": null,
+                                    "lang": "EN"
+                                }
+                            ],
+                            "extra_info": [
+                                "EMB"
+                            ]
+                        },
+                        {
+                            "name": "CBS News USA",
+                            "web": "https://www.cbsnews.com/live/",
+                            "logo": "https://graph.facebook.com/CBSNews/picture?width=200&height=200",
+                            "epg_id": null,
+                            "options": [
+                                {
+                                    "format": "m3u8",
+                                    "url": "https://cbsn-us.cbsnstream.cbsnews.com/out/v1/55a8648e8f134e82a470f83d562deeca/master.m3u8",
+                                    "geo2": null,
+                                    "res": null,
+                                    "lang": "EN"
+                                }
+                            ],
+                            "extra_info": []
+                        },
+                        {
+                            "name": "Cheddar USA",
+                            "web": "https://cheddar.com/live",
+                            "logo": "https://graph.facebook.com/cheddar/picture?width=200&height=200",
+                            "epg_id": null,
+                            "options": [
+                                {
+                                    "format": "m3u8",
+                                    "url": "https://cheddar.samsung.wurl.com/manifest/playlist.m3u8",
+                                    "geo2": null,
+                                    "res": null,
+                                    "lang": "EN"
+                                }
+                            ],
+                            "extra_info": []
+                        },
+                        {
+                            "name": "Bloomberg USA",
+                            "web": "https://www.bloomberg.com/live/us/btv",
+                            "logo": "https://pbs.twimg.com/profile_images/991792042094354432/DG1Ruupb_200x200.jpg",
+                            "epg_id": null,
+                            "options": [
+                                {
+                                    "format": "m3u8",
+                                    "url": "https://www.bloomberg.com/media-manifest/streams/us.m3u8",
+                                    "geo2": null,
+                                    "res": null,
+                                    "lang": "EN"
+                                },
+                                {
+                                    "format": "m3u8",
+                                    "url": "https://www.bloomberg.com/media-manifest/streams/us-event.m3u8",
+                                    "geo2": null,
+                                    "res": null,
+                                    "lang": "EN"
+                                }
+                            ],
+                            "extra_info": []
+                        },
+                        {
+                            "name": "CourtTV USA",
+                            "web": "https://www.courttv.com/title/court-tv-live-stream-web/",
+                            "logo": "https://graph.facebook.com/courttv/picture?width=200&height=200",
+                            "epg_id": null,
+                            "options": [
+                                {
+                                    "format": "m3u8",
+                                    "url": "https://content.uplynk.com/channel/6c0bd0f94b1d4526a98676e9699a10ef.m3u8",
+                                    "geo2": null,
+                                    "res": null,
+                                    "lang": "EN"
+                                }
+                            ],
+                            "extra_info": []
+                        },
+                        {
+                            "name": "NASA TV Public",
+                            "web": "https://www.nasa.gov/multimedia/nasatv/#public",
+                            "logo": "https://graph.facebook.com/NASA/picture?width=200&height=200",
+                            "epg_id": null,
+                            "options": [
+                                {
+                                    "format": "m3u8",
+                                    "url": "https://ntv1.akamaized.net/hls/live/2014075/NASA-NTV1-HLS/master.m3u8",
+                                    "geo2": null,
+                                    "res": null,
+                                    "lang": null
+                                }
+                            ],
+                            "extra_info": []
+                        },
+                        {
+                            "name": "NASA TV Media",
+                            "web": "https://www.nasa.gov/multimedia/nasatv/#media",
+                            "logo": "https://graph.facebook.com/NASA/picture?width=200&height=200",
+                            "epg_id": null,
+                            "options": [
+                                {
+                                    "format": "m3u8",
+                                    "url": "https://ntv2.akamaized.net/hls/live/2013923/NASA-NTV2-HLS/master.m3u8",
+                                    "geo2": null,
+                                    "res": null,
+                                    "lang": null
+                                }
+                            ],
+                            "extra_info": []
+                        },
+                        {
+                            "name": "WeatherNation USA",
+                            "web": "https://www.weathernationtv.com",
+                            "logo": "https://graph.facebook.com/WeatherNation/picture?width=200&height=200",
+                            "epg_id": null,
+                            "options": [
+                                {
+                                    "format": "m3u8",
+                                    "url": "https://d2ferbiwcx1539.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-8zd06wicndthf-ssai-prd/WNNationalSamsung/WNNationalSamsung.m3u8",
+                                    "geo2": null,
+                                    "res": null,
+                                    "lang": null
+                                }
+                            ],
+                            "extra_info": []
+                        },
+                        {
+                            "name": "America's Voice USA",
+                            "web": "https://americasvoice.news",
+                            "logo": "https://graph.facebook.com/RealAmericasVoice/picture?width=200&height=200",
+                            "epg_id": null,
+                            "options": [
+                                {
+                                    "format": "m3u8",
+                                    "url": "https://d2jiqiw4g5lj5k.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/AmericasVoiceChannel-prod/AVSamsung/AVSamsung.m3u8",
+                                    "geo2": null,
+                                    "res": null,
+                                    "lang": "EN"
+                                }
+                            ],
+                            "extra_info": []
+                        },
+                        {
+                            "name": "BUZZR TV USA",
+                            "web": "https://buzzrtv.com/watch",
+                            "logo": "https://graph.facebook.com/BUZZRtv/picture?width=200&height=200",
+                            "epg_id": null,
+                            "options": [
+                                {
+                                    "format": "m3u8",
+                                    "url": "https://buzzr-samsungus.amagi.tv/playlist.m3u8",
+                                    "geo2": null,
+                                    "res": null,
+                                    "lang": "EN"
+                                }
+                            ],
+                            "extra_info": []
+                        },
+                        {
+                            "name": "Newsmax TV USA",
+                            "web": "https://www.newsmaxtv.com",
+                            "logo": "https://graph.facebook.com/newsmax/picture?width=200&height=200",
+                            "epg_id": null,
+                            "options": [
+                                {
+                                    "format": "m3u8",
+                                    "url": "https://nmxlive.akamaized.net/hls/live/529965/Live_1/master.m3u8",
+                                    "geo2": null,
+                                    "res": null,
+                                    "lang": "EN"
+                                }
+                            ],
+                            "extra_info": []
+                        },
+                        {
+                            "name": "America TeVe USA",
+                            "web": "https://www.americateve.com/vivo",
+                            "logo": "https://graph.facebook.com/americateve/picture?width=200&height=200",
+                            "epg_id": null,
+                            "options": [
+                                {
+                                    "format": "m3u8",
+                                    "url": "https://uni01rtmp.tulix.tv/americateve1/americateve1/master.m3u8",
+                                    "geo2": null,
+                                    "res": null,
+                                    "lang": null
+                                }
+                            ],
+                            "extra_info": []
+                        },
+                        {
+                            "name": "NTN24 Am\u00e9rica",
+                            "web": "https://www.ntn24.com/en-vivo/",
+                            "logo": "https://graph.facebook.com/NTN24/picture?width=200&height=200",
+                            "epg_id": "NTN24.TV",
+                            "options": [
+                                {
+                                    "format": "youtube",
+                                    "url": "https://www.youtube.com/channel/UCEJs1fTF3KszRJGxJY14VrA/live",
+                                    "geo2": null,
+                                    "res": null,
+                                    "lang": null
+                                }
+                            ],
+                            "extra_info": [
+                                "EMB"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Deportivos Int.",
+                    "channels": [
+                        {
+                            "name": "Olympic Channel TV",
+                            "web": "https://olympics.com/es/live/",
+                            "logo": "https://graph.facebook.com/olympics/picture?width=200&height=200",
+                            "epg_id": null,
+                            "options": [],
+                            "extra_info": [
+                                "W3U",
+                                "EMB"
+                            ]
+                        },
+                        {
+                            "name": "FIBA",
+                            "web": "https://www.livebasketball.tv/home",
+                            "logo": "https://graph.facebook.com/FIBA/picture?width=200&height=200",
+                            "epg_id": null,
+                            "options": [
+                                {
+                                    "format": "youtube",
+                                    "url": "https://www.youtube.com/user/FIBAWorld/live",
+                                    "geo2": null,
+                                    "res": null,
+                                    "lang": null
+                                }
+                            ],
+                            "extra_info": [
+                                "EMB"
+                            ]
+                        },
+                        {
+                            "name": "World Padel Tour",
+                            "web": "https://www.worldpadeltour.com/en-directo/",
+                            "logo": "https://graph.facebook.com/worldpadeltour/picture?width=200&height=200",
+                            "epg_id": null,
+                            "options": [
+                                {
+                                    "format": "youtube",
+                                    "url": "https://www.youtube.com/channel/UCK59dYVs3Wgwoe73nDTH6jw/live",
+                                    "geo2": null,
+                                    "res": null,
+                                    "lang": null
+                                }
+                            ],
+                            "extra_info": [
+                                "EMB"
+                            ]
+                        },
+                        {
+                            "name": "Redbull TV",
+                            "web": "https://www.redbull.com/int-en/tv/tv",
+                            "logo": "https://graph.facebook.com/RedBull/picture?width=200&height=200",
+                            "epg_id": null,
+                            "options": [
+                                {
+                                    "format": "m3u8",
+                                    "url": "https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8",
+                                    "geo2": null,
+                                    "res": null,
+                                    "lang": "EN"
+                                }
+                            ],
+                            "extra_info": []
+                        },
+                        {
+                            "name": "Meridiano Venezuela",
+                            "web": "https://meridiano.net/meridianotv.html",
+                            "logo": "https://graph.facebook.com/Meridiano.Dearmas/picture?width=200&height=200",
+                            "epg_id": null,
+                            "options": [
+                                {
+                                    "format": "youtube",
+                                    "url": "https://www.youtube.com/channel/UCcYfZbinuodyF8rVkl4u7Lw/live",
+                                    "geo2": null,
+                                    "res": null,
+                                    "lang": null
+                                }
+                            ],
+                            "extra_info": [
+                                "EMB"
+                            ]
+                        },
+                        {
+                            "name": "Channel Fight",
+                            "web": "https://www.channelfight.com",
+                            "logo": "https://graph.facebook.com/channelfightofficial/picture?width=200&height=200",
+                            "epg_id": null,
+                            "options": [
+                                {
+                                    "format": "m3u8",
+                                    "url": "https://api-ott.channelfight.com/loggingmediaurlpassthrough/a.m3u8?version=12&id=269&partner=TDTChannels",
+                                    "geo2": null,
+                                    "res": null,
+                                    "lang": "EN"
+                                }
+                            ],
+                            "extra_info": []
+                        },
+                        {
+                            "name": "Stadium USA",
+                            "web": "https://watchstadium.com/live/",
+                            "logo": "https://graph.facebook.com/watchstadium/picture?width=200&height=200",
+                            "epg_id": null,
+                            "options": [
+                                {
+                                    "format": "m3u8",
+                                    "url": "https://bcovlive-a.akamaihd.net/79ebca453e6340dcb32b09707ce3fb82/us-east-1/5994000126001/8036529875f74c81b5f50851bffbc421/playlist_ssaiM.m3u8",
+                                    "geo2": null,
+                                    "res": null,
+                                    "lang": "EN"
+                                }
+                            ],
+                            "extra_info": []
+                        },
+                        {
+                            "name": "Garage TV Argentina",
+                            "web": "http://elgarage.com",
+                            "logo": "https://pbs.twimg.com/profile_images/1169992187314167808/TeabGtEB_200x200.jpg",
+                            "epg_id": null,
+                            "options": [
+                                {
+                                    "format": "m3u8",
+                                    "url": "https://stream1.sersat.com/hls/garagetv.m3u8",
+                                    "geo2": null,
+                                    "res": null,
+                                    "lang": null
+                                }
+                            ],
+                            "extra_info": []
+                        },
+                        {
+                            "name": "MsMotor TV",
+                            "web": "https://www.msmotor.tv",
+                            "logo": "https://graph.facebook.com/msmotortv/picture?width=200&height=200",
+                            "epg_id": null,
+                            "options": [],
+                            "extra_info": [
+                                "W3U",
+                                "EXTA"
+                            ]
+                        },
+                        {
+                            "name": "Best Cable Sports Per\u00fa",
+                            "web": "https://bestcableperu.com.pe/tv6.html",
+                            "logo": "https://graph.facebook.com/BestCableSportsCanal6/picture?width=200&height=200",
+                            "epg_id": null,
+                            "options": [
+                                {
+                                    "format": "m3u8",
+                                    "url": "https://mi.godo.net.pe/Best-sport-00000x111/index.m3u8",
+                                    "geo2": null,
+                                    "res": null,
+                                    "lang": null
+                                }
+                            ],
+                            "extra_info": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "updated": 1697401074
+}
